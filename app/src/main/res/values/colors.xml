@@ -1,6 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimary">#F7941E</color>
     <color name="colorPrimaryDark">#303F9F</color>
-    <color name="colorAccent">#FF4081</color>
+    <color name="colorAccent">#F7941E</color>
+
+    <!-- Основной фон фрагментов -->
+    <color name="mainBgColor">#EEEEEE</color>
+    <!-- Цвета состояний -->
+    <color name="infoColor">#000055</color>
+    <color name="successColor">#005500</color>
+    <color name="notSuccessColor">#550000</color>
+    <color name="simpleColor">#000000</color>
+
+    <color name="deviderColor">#333333</color>
+
 </resources>

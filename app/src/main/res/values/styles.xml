@@ -17,4 +17,83 @@
 
     <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
 
+    <style name="fragmentStyle">
+        <item name="android:paddingTop">@dimen/fragment_padding_top</item>
+        <item name="android:paddingStart">@dimen/fragment_padding_start</item>
+        <item name="android:paddingEnd">@dimen/fragment_padding_end</item>
+        <item name="android:paddingBottom">@dimen/fragment_padding_bottom</item>
+        <item name="android:background">@color/mainBgColor</item>
+    </style>
+
+    <style name="baseBtnStyle">
+        <item name="android:background">@color/colorPrimary</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <style name="routeInfoBoxStyle">
+        <item name="android:background">@drawable/route_info_box</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:layout_marginBottom">@dimen/route_f_box_margin_bottom</item>
+    </style>
+
+    <style name="routeInfoTextViewStyle">
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:layout_marginTop">@dimen/route_f_textview_margin_top</item>
+        <item name="android:layout_marginStart">@dimen/route_f_textview_margin_start</item>
+        <item name="android:layout_marginEnd">@dimen/route_f_textview_margin_end</item>
+        <item name="android:layout_marginBottom">@dimen/route_f_textview_margin_bottom</item>
+        <item name="android:textSize">@dimen/route_f_textview_simple_text_size</item>
+
+    </style>
+
+    <style name="routeInfoActualStyle" parent="@style/routeInfoTextViewStyle">
+        <item name="android:textColor">@color/infoColor</item>
+    </style>
+
+    <style name="routeInfoSuccessStyle" parent="@style/routeInfoTextViewStyle">
+        <item name="android:textColor">@color/successColor</item>
+    </style>
+
+    <style name="routeInfoNotSuccessStyle" parent="@style/routeInfoTextViewStyle">
+        <item name="android:textColor">@color/notSuccessColor</item>
+    </style>
+
+    <style name="routeInfoHeaderStyle" parent="@style/routeInfoTextViewStyle">
+        <item name="android:textColor">@color/simpleColor</item>
+        <item name="android:textSize">@dimen/route_f_textview_header_text_size</item>
+    </style>
+
+    <style name="waypointListStyle">
+        <item name="android:background">@android:color/white</item>
+    </style>
+
+    <style name="waypointsListHeaderTextStyle" parent="@style/routeInfoTextViewStyle">
+        <item name="android:textColor">@color/simpleColor</item>
+        <item name="android:textSize">@dimen/route_f_textview_header_text_size</item>
+        <item name="android:layout_marginBottom">0dp</item>
+    </style>
+
+    <style name="waypointsListValueTextStyle" parent="@style/routeInfoTextViewStyle">
+        <item name="android:textColor">@color/infoColor</item>
+        <item name="android:textStyle">italic</item>
+        <item name="android:textSize">@dimen/route_f_textview_header_text_size</item>
+        <item name="android:layout_marginBottom">0dp</item>
+    </style>
+
+    <style name="deviderStyle">
+        <item name="android:background">@color/deviderColor</item>
+        <item name="android:layout_height">@dimen/devider_height</item>
+        <item name="android:layout_width">match_parent</item>
+    </style>
+
+    <style name="verticalDeviderStyle">
+        <item name="android:background">@color/deviderColor</item>
+        <item name="android:layout_width">@dimen/devider_height</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+
+    <style name="settingsLayoutStyle">
+        <item name="android:background">@android:color/white</item>
+    </style>
+
 </resources>

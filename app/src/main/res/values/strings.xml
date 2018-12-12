@@ -1,9 +1,89 @@
 <resources>
-    <string name="app_name">RouteAssistant</string>
+    <string name="app_name">Кенгуру.Водитель</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
     <string name="nav_header_title">Android Studio</string>
     <string name="nav_header_subtitle">android.studio@android.com</string>
     <string name="nav_header_desc">Navigation header</string>
-    <string name="action_settings">Settings</string>
+
+    <string name="action_route">Маршрутное задание</string>
+    <string name="action_waypoints">Пункты назначения</string>
+    <string name="action_map">Маршрут</string>
+    <string name="action_settings">Настройки</string>
+
+    <string name="load_route_action_btn_text">Загрузить маршрут</string>
+    <string name="start_route_action_btn_text">Начать маршрут</string>
+    <string name="arrive_action_btn_text">Прибыл в точку</string>
+    <string name="leave_action_btn_text">Отбыл из точки</string>
+    <string name="finish_route_action_btn_text">Завершить маршрут</string>
+
+    <!-- Строки для диалога ввода идентификатора устройства -->
+    <string name="device_id_dialog_title">Введите идентификатор устройства</string>
+    <string name="device_id_dialog_input_hint">Идентификатор устройства</string>
+    <string name="device_id_dialog_btn_ok_text">Ок</string>
+
+    <!-- Строки для диалога найденного незавершенного маршрута -->
+    <string name="find_route_dialog_title">Найден незавершенный маршрут!</string>
+    <string name="find_route_dialog_msg">Продолжить выполнение?</string>
+    <string name="find_route_dialog_pos_btn_text">Продолжить</string>
+    <string name="find_route_dialog_neg_btn_text">Завершить</string>
+
+    <!-- Строки для диалога найденного незавершенного маршрута -->
+    <string name="load_route_dialog_title">Подтвердите действие</string>
+    <string name="load_route_dialog_msg">Загрузить новый маршрут?</string>
+    <string name="load_route_dialog_pos_btn_text">Да</string>
+    <string name="load_route_dialog_neg_btn_text">Нет</string>
+
+    <!-- Строки для диалога завершения маршрута -->
+    <string name="result_route_dialog_title">Подтвердите действие</string>
+    <string name="result_route_dialog_msg">Маршрут успешно завершен?</string>
+    <string name="result_route_dialog_success_btn_text">Да</string>
+    <string name="result_route_dialog_not_success_btn_text">Нет</string>
+
+    <!-- Строки для фрагмента no_route_fragment -->
+    <string name="no_route_text">Нет назначенных маршрутных заданий</string>
+    <string name="no_route_btn_text">Загрузить маршрут</string>
+
+    <!-- Строки для фрагмента route_fragment -->
+    <string name="route_info_number">Номер маршрута</string>
+    <string name="route_info_start">Начало маршрута</string>
+    <string name="route_info_distance">Расстояние</string>
+    <string name="route_info_finish">Завершение план</string>
+    <string name="route_info_current_time">Время в пути</string>
+    <string name="route_info_current_distance">Пройдено</string>
+    <string name="route_info_percent">Процент выполнения</string>
+    <string name="route_info_waypoint_info">Информация о точке</string>
+    <string name="route_info_waypoint_address">Адрес</string>
+    <string name="route_info_waypoint_type">Операция</string>
+    <string name="route_info_waypoint_cargo">Груз</string>
+    <string name="route_info_waypoint_finish_plan">Прибытие план</string>
+    <string name="route_info_waypoint_retard">Отставание</string>
+    <string name="kilometres">км</string>
+
+    <!-- Строки для фрагмента waypoints_fragment -->
+    <string name="waypoint_list_address">Адрес: </string>
+    <string name="waypoint_list_type">Действие: </string>
+    <string name="waypoint_list_cargo">Груз: </string>
+    <string name="waypoint_list_status">Статус: </string>
+
+    <!-- Строки для фрагмента settings_fragment -->
+    <string name="location_period_settings">Периодичность отправки местоположения</string>
+
+    <!-- Строки для фрагмента map_fragment -->
+    <string name="network_error_message">Проблема с подключением к сети</string>
+    <string name="remote_error_message">Ошибка на сервисе геокодирования</string>
+    <string name="unknown_error_message">Ошибка</string>
+
+    <!-- Строки для уведомлений -->
+    <string name="arrive_notification_title">Вы прибыли в точку?</string>
+    <string name="arrive_notification_content">Если вы прибыли в точку, зайдите в приложение и отметьте это событие</string>
+    <string name="leave_notification_title">Вы отбыли из точки?</string>
+    <string name="leave_notification_content">Если вы отбыли из точки, зайдите в приложение и отметьте это событие</string>
+    <string name="finish_route_notification_title">Вы завершили маршрут?</string>
+    <string name="finish_route_notification_content">Если вы завершили маршрут, зайдите в приложение и отметьте это событие</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
 </resources>

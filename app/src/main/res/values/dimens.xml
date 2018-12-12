@@ -5,4 +5,21 @@
     <dimen name="nav_header_vertical_spacing">8dp</dimen>
     <dimen name="nav_header_height">176dp</dimen>
     <dimen name="fab_margin">16dp</dimen>
+
+    <dimen name="action_btn_height">60dp</dimen>
+    <!-- Размеры для фрагментов -->
+    <dimen name="fragment_padding_top">10dp</dimen>
+    <dimen name="fragment_padding_bottom">10dp</dimen>
+    <dimen name="fragment_padding_start">10dp</dimen>
+    <dimen name="fragment_padding_end">10dp</dimen>
+    <!-- Размеры для фрагмента fragment_route -->
+    <dimen name="route_f_box_margin_bottom">5dp</dimen>
+    <dimen name="route_f_textview_margin_top">7dp</dimen>
+    <dimen name="route_f_textview_margin_bottom">7dp</dimen>
+    <dimen name="route_f_textview_margin_start">7dp</dimen>
+    <dimen name="route_f_textview_margin_end">7dp</dimen>
+    <dimen name="route_f_textview_simple_text_size">15sp</dimen>
+    <dimen name="route_f_textview_header_text_size">20sp</dimen>
+    <!-- Размеры для фрагмента fragment_waypoints -->
+    <dimen name="devider_height">1dp</dimen>
 </resources>

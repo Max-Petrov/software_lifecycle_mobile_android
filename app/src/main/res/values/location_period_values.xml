@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="location_period">
+        <item>Каждые 30 секунд</item>
+        <item>Каждую минуту</item>
+        <item>Каждые две минуты</item>
+        <item>Не отправлять</item>
+    </string-array>
+</resources>
